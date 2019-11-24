@@ -1,5 +1,5 @@
-def greeting(name)
-  puts "hello, #{name}!"
+def greeting(name, language)
+  puts "hello, #{name}!, you are learning #{language}"
 end
 
-greeting("KRING")
+greeting("KRING", "Ruby")
